@@ -7,6 +7,7 @@
 <h2>Introduction</h2>
 <p>a Spring Boot project with web dependencies, Spring Data JPA, H2, Lombok</p>
 <center><img src="images/img.png"></center>
+<p>First, creat spring project with Spring Data JPA, Spring web, H2 Database, Lombok, Spring for GraphQL, Swagger dependencies</p>
 <ol type="1">
     <h3><li>JPA Bank Account</li></h3>
     <pre>@Entity
@@ -141,4 +142,17 @@
         }</pre>
     </ul>
 <h3><li>Swagger</li></h3>
+<img src="images/swagger1.png"/>
+<p>Add bank account using post method </p>
+<img src="images/swgPost1.png">
+<img src="images/swgPost2.png">
+<p>Get the bank account that already added</p>
+<img src="images/swgGet1.png">
+<p>We can try other methods in the same way </p>
+
+<h3><li>Spring Data Rest</li></h3>
+<p>Add Spring data rest dependency, to create a generic web service</p>
+<img src="images/swagger1.png"/>
+<p>Add bank account using post method </p>
+
 </ol>
